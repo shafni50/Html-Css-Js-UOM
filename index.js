@@ -8,7 +8,7 @@ function newSub(){
 
 //Subscribed
 function submitted(){
-  const buttonElement = document.querySelector('.sub-button')
+  const buttonElement = document.querySelector('.submit-button')
 
   if (buttonElement.innerText === 'SUBSCRIBE') {
     buttonElement.innerHTML = 'Subscribed'.toUpperCase()
